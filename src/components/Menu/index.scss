@@ -42,11 +42,11 @@
   margin-left: 2.25em;
 }
 .position-col{
-    position: relative;
-    left: 55px;
-    z-index: 1;
-    width: 15% !important;
-    top: 22px;
+  position: relative;
+  left: 55px;
+  z-index: 1;
+  max-width: 12% !important;
+  top: 11px;
 }
 .custom-h{
     height: 127px !important;

@@ -4,7 +4,6 @@
             <div class="col-md-6 z-1">
                  <div class="parallax-container" ref="parallaxContainer">  
                     <img :src="pastel" class="pastel-image"/>
-                    <!-- <div class="smoke-effect" ref="smokeEffect" id="smokeEffect"></div> -->
                  </div>
             </div>
             <div class="col-md-6 ">
@@ -26,9 +25,6 @@
                             <label class="form-check-label">Bebida</label>
                         </div>
                     </div>
-
-                 
-                    
                 </div>
             </div>
             <div class="card-body">

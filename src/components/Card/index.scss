@@ -63,30 +63,8 @@
     height: auto;
 }
 
-.smoke-effect {
-    position: absolute;
-    top: -80px;
-    left: 0;
-    width: 40%;
-    height: 0;
-    background: url('/public/img/fumaca2.png') no-repeat;
-    background-size: 100% auto;
-    z-index: 1;
-    left: -45%;
-    opacity: 0;
-    pointer-events: none;
-    transform: rotate(-40deg);
-    transition: opacity 0.3s ease-in-out;
-}
-
 .parallax-container:hover .pastel-image {
     transform: translateY(-20px);
-}
-
-.parallax-container:hover .smoke-effect {
-    height: 100%;
-    opacity: 1; 
-    transition: height 1s ease-in-out, opacity 0.3s ease-in-out; 
 }
 
 @media (min-width: 992px){

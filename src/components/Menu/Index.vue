@@ -7,7 +7,12 @@
             <div class="row" v-for="(menu, index) in menus" :key="index">
                 <div class="col-md-4 position-col">
                     <div class="card mb-3 custom-h">
-                        <img :src="menu.image || '/img/images.png'" class="img-fluid rounded custom-h position-relative" alt="imagem-cardapio">
+                        <div v-if="!type.hasDrink">
+                            <img :src="menu.image || '/img/images.png'" class="img-fluid rounded position-relative" alt="imagem-cardapio">
+                        </div>
+                        <div v-else>
+                            <img :src="menu.image || '/img/drinks.jpg'" class="img-fluid rounded position-relative" alt="imagem-cardapio">
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-8">
@@ -52,7 +57,8 @@ export default {
 
     computed:{
         ...mapGetters({
-            menus: 'menu/menus'
+            menus: 'menu/menus',
+            type: 'menu/type'
         })
     },
 }
