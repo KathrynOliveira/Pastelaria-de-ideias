@@ -1,0 +1,97 @@
+@import './fonts.scss';
+@import './buttons.scss';
+
+:root {
+    --yellow: #FFCA00;
+    --brown: #A03400;
+    --red: #E43636;
+ 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('/public/img/pattern.png');
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+label{
+    color: var(--brown);
+}
+
+input::placeholder {
+    color: var(--brown);
+}
+
+h4{
+    font-family: 'Roboto-BoldItalic';
+}
+
+.text-brown{
+    color: var(--brown);
+}
+
+.text-yellow{
+    color: var(--yellow);
+}
+
+.bg-red{
+    background-color: var(--red);
+}
+
+.bg-brown{
+    background-color: var(--brown);
+}
+
+.form-control,
+.form-control:focus {
+    border-color: var(--red) !important;
+    box-shadow: none !important;
+}
+
+@media (max-width: 575.98px) { 
+    .background-header {
+        background-size: cover;
+        min-height: 589px !important;
+        display: block !important;
+        background-position: unset; 
+    }
+    .img-pastel{
+        left: 50px;
+        top: 35px;
+    }
+    .img-text{ 
+        left: 62px;
+        top: 60px;
+        width: 300px;
+    }
+    .pastel-image {
+        width: 245px;
+        position: relative;
+        left: -145px;
+        bottom: -125px;
+    }
+    .img-pasteis{
+        width: 100%;
+        position: relative;
+        top: 100px;
+        left: 0px !important;
+    }
+    .position-col {
+        left: 9px;
+        z-index: 1;
+        width: 28% !important;
+        height: 0px;
+        top: 38px;
+    }
+    .custom-h{
+         height: auto !important; 
+    }
+    .mobile{
+        .ps-5 {
+            padding-left: 6rem !important;
+        }
+    }
+ }

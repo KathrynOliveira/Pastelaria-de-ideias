@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Roboto-Italic';
+    src: url('@basePath/assets/fonts/Roboto/Roboto-Italic.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('@basePath/assets/fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-BoldItalic';
+    src: url('@basePath/assets/fonts/Roboto/Roboto-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('@basePath/assets/fonts/Roboto/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url('@basePath/assets/fonts/Roboto/Roboto-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-BlackItalic';
+    src: url('@basePath/assets/fonts/Roboto/Roboto-BlackItalic.ttf');
+}
+
+
+/* FONTES CLASSES */
+
+.f-robotoLight{
+    font-family: 'Roboto-Light';
+}
+
+.f-robotoRegular{
+    font-family: 'Roboto-Regular';
+}
+
+.f-boldItalic{
+    font-family: 'Roboto-BoldItalic';
+}
+
+.f-robotoBold{
+    font-family: 'Roboto-Bold';
+}
+
+.f-robotoBlack{
+    font-family: 'Roboto-Black';
+}
+
+.f-robotoBlackItalic{
+    font-family: 'Roboto-BlackItalic';
+}
+

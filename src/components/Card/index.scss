@@ -1,0 +1,96 @@
+.card.custom{
+    border: 0 !important;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 5px 5px #00000029;
+    margin-top: -180px;
+
+    .card-header{
+        background-color: var(--yellow);
+        border-bottom: none;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+}
+
+.img-pasteis{
+    width: 100%;
+    position: relative;
+    top: 39%; 
+    left:18%
+}
+
+.pastel-image{
+    width: 245px;
+    position: relative;
+    left: -145px;
+    bottom: -125px;
+    transform: rotate(6deg);
+    z-index: 1;
+    height: auto;
+    transition: transform 0.3s ease-out;
+}
+
+.file-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.file-label i {
+    margin-bottom: 10px;
+}
+
+.file-input-field {
+    display: none;
+}
+
+.custom-buttons{
+    position: relative;
+    top: 33px;
+
+    button{
+        padding-right: 2rem;
+        border-radius: 2rem !important;
+        padding-left: 2rem;
+        font-family: 'Roboto-Black';
+    }
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.smoke-effect {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 40%;
+    height: 0;
+    background: url('/public/img/fumaca2.png') no-repeat;
+    background-size: 100% auto;
+    z-index: 1;
+    left: -45%;
+    opacity: 0;
+    pointer-events: none;
+    transform: rotate(-40deg);
+    transition: opacity 0.3s ease-in-out;
+}
+
+.parallax-container:hover .pastel-image {
+    transform: translateY(-20px);
+}
+
+.parallax-container:hover .smoke-effect {
+    height: 100%;
+    opacity: 1; 
+    transition: height 1s ease-in-out, opacity 0.3s ease-in-out; 
+}
+
+@media (min-width: 992px){
+    .custom-container {
+        max-width: 1000px !important;
+    }
+}

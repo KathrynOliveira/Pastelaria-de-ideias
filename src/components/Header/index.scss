@@ -1,0 +1,31 @@
+.background-header{
+    background-image: url('/public/img/background.svg') ;
+    background-size: cover;
+    min-height: 589px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    background-position: bottom;
+}
+.img-pastel{
+    z-index: 1;
+    position: relative;
+    right: 75px; 
+    top: 35px;
+}
+.img-text{
+    position: relative; 
+    right: 110px;
+    top: 52px;
+}
+
+@media (max-width: 768px) {
+    .background-header {
+        justify-content: center;
+        align-items: center;
+
+        .img-responsive{
+            width: 45%;
+        }
+    }
+}
