@@ -4,13 +4,6 @@
 
 <img src="./public/img/logo.svg" width="350px">
 
-
-<div style="margin-top:15px;">
-    <img src="https://img.shields.io/github/stars/portfolio-projetos-dev/portfoleo?style=for-the-badge" alt="GitHub stars" />
-    <img src="https://img.shields.io/github/forks/portfolio-projetos-dev/portfoleo?style=for-the-badge" alt="GitHub forks" />
-    <img src="https://img.shields.io/github/issues/portfolio-projetos-dev/portfoleo?style=for-the-badge" alt="GitHub issues" />
-</div>
-
 <div style="margin-top:15px;">
   <img src="https://img.shields.io/badge/Vue%20js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="VueJs"/>
   <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
