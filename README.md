@@ -1,49 +1,58 @@
-# App Pastel de ideias
+# 👩🏻‍💻 Projeto Pastel de ideias
+
+<div align="center">
+
+<img src="./public/img/logo.svg" width="350px">
 
 
-# Installation using node
-https://nodejs.org/pt-br/download
+<div style="margin-top:15px;">
+    <img src="https://img.shields.io/github/stars/portfolio-projetos-dev/portfoleo?style=for-the-badge" alt="GitHub stars" />
+    <img src="https://img.shields.io/github/forks/portfolio-projetos-dev/portfoleo?style=for-the-badge" alt="GitHub forks" />
+    <img src="https://img.shields.io/github/issues/portfolio-projetos-dev/portfoleo?style=for-the-badge" alt="GitHub issues" />
+</div>
 
-## Project setup
-```
-npm install
-```
+<div style="margin-top:15px;">
+  <img src="https://img.shields.io/badge/Vue%20js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="VueJs"/>
+  <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">  
+</div>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+</div>
 
-### Compiles and minifies for production
-```
-npm run build
-```
+O Projeto Pastel de Ideias é uma aplicação frontend desenvolvida para aprimorar habilidades com Vue.js e Vuex. Trata-se de uma aplicação simples, focada na manipulação da reatividade fornecida pelo Vue, permitindo a criação de um layout dinâmico por meio de interações intuitivas.
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 🖥️ Como rodar este projeto 🖥️
 
-# Installation using Docker
-https://docs.docker.com/desktop/
+### Requisitos:
+-   Node.js instalado
+-   Docker instalado
 
-## Image Dockerfile Node + VueCli
+### Execução:
+
+1. Clone este repositório:
+
+    ```sh
+    git clone https://github.com/KathrynOliveira/Pastelaria-de-ideias.git
+    ```
+
+2. Acesse o diretório do projeto:
+
+    ```sh
+    cd Pastelaria-de-ideias
+    ```
+
+3. Comando imagem docker:
+
+    ```sh
     cd docker build -t img_vue .
     docker compose up -d
-## Project setup
-```
-docker compose exec node npm install
-```
+    ```
 
-### Compiles and hot-reloads for development
-```
-docker compose exec node npm run serve -- --port 80
-```
+4. Comando docker:
+    ```sh
+    docker compose exec node npm install
+    docker compose exec node npm run serve -- --port 80
+    ```
 
-### Compiles and minifies for production
-```
-docker compose exec node npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 💎 Links úteis 💎
+-   [Docker](https://docs.docker.com/desktop/)
